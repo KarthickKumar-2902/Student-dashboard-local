@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+       <h2>Enter the student details</h2>
+       <div class="formDiv">    
+           <form>
+            <div class="item ">
+                <label for="Sfname">Name : </label>
+                <input type="text" name="Sfname" id="fname" required>
+            </div>
+            <div class="item ">
+                <label for="Sroll">Roll : </label>
+                <input type="text" name="Sroll" id="roll" required>
+            </div>
+            <div class="item ">
+                <label for="Syear">Year : </label>
+                <input type="number" name="Syear" id="year" required>
+            </div>
+            <div class="item ">
+                <label for="Scourse">Course : </label>
+                <input type="text" name="Scourse" id="course" required>
+            </div>
+            <div class="item ">
+                <label for="Smark">Mark : </label>
+                <input type="number" name="Amark" id="mark" required>
+            </div>
+            <div class="item ">
+                <label for="Sgrade">Grade : </label>
+                <input type="text" name="Sgrade" id="grade" required>
+            </div>
+            <div class="item sbtn">
+                <button type="button" class="sbutton" id="btn">Submit</button>
+            </div>
+           </form>
+       </div>
+
+       <div class="tableDiv">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sno</th>
+                        <th>Name</th>
+                        <th>RollNo</th>
+                        <th>Year</th>
+                        <th>Course</th>
+                        <th>Mark</th>
+                        <th>Grade</th>
+                        <th>Filter : <select>
+                            <option>All</option>
+                            <option>Top 5</option>
+                            <option>Failures</option>
+
+                        </select></th>
+                    </tr>
+                </thead>
+                <tbody id="bodyContent">
+                    
+                </tbody>
+            </table>
+       </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

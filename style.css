@@ -1,0 +1,85 @@
+body{
+    padding: 1% 5%;
+}
+section{
+    padding: 1% 5%;
+    background-color: rgba(211, 211, 211, 0.208);
+    border-radius: 20px;
+    
+}
+label{
+    font-size: large;
+}
+.formDiv {
+    padding: 1% 3%;
+    
+}
+.item{
+    /* background-color: red; */
+    width: 50%;
+}
+.sbtn{
+    display: flex !important;
+    justify-content: center;
+    height: 2rem;
+    
+}
+input{
+    height: 1.5rem;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.122);
+    border-radius: 5px;
+}
+.sbutton{
+    width: 15rem;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+form{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+}
+
+
+/* Table Style */
+.tableDiv table{
+    border-collapse: collapse;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 3%;
+    
+}
+thead tr{
+    color: white;
+    background-color: #29dc9a;
+    height: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+tbody tr{
+    border-bottom: 1px solid rgba(194, 191, 191, 0.689);
+    height: 2rem;
+}
+tbody tr:nth-child(even){
+    background-color: #b8b5b537;
+
+}
+th,td{
+    border: 1px solid rgba(194, 191, 191, 0.689);
+    text-align: center;
+}
+select{
+    background: none;
+    border: none;
+    text-align: center;
+    color: white;
+}
+option{
+    background: #29dc9a;
+}
